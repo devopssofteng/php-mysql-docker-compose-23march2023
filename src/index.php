@@ -8,7 +8,7 @@
 <body>
     <div class="container">
     <?php 
-        declare(strict_types=1);
+        /*declare(strict_types=1);*/
         echo "<h1>Display data of Person table</h1>";     
     ?>
 
