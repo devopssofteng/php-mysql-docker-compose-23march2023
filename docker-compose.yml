@@ -27,3 +27,4 @@ services:
       - 8000:80
     environment:      
       - MYSQL_ROOT_PASSWORD=root
+      - PMA_ARBITRARY=1
