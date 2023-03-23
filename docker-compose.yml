@@ -20,3 +20,10 @@ services:
       - MYSQL_ROOT_PASSWORD=root
     volumes:
       - './docker/volume/mysql:/var/lib/mysql'
+      
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin    
+    ports:
+      - 8000:80
+    environment:      
+      - MYSQL_ROOT_PASSWORD=root
